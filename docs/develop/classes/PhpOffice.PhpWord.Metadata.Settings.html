@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    API Documentation &raquo; \PhpOffice\PhpWord\Metadata\Settings
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">API Documentation</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/PhpOffice.html">PhpOffice</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public">
+        <a href="#method_getDecimalSymbol" title="getDecimalSymbol :: Returns the Radix Point for Field Code Evaluation">
+            <span class="description">Returns the Radix Point for Field Code Evaluation</span><pre>getDecimalSymbol</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getDocumentProtection" title="getDocumentProtection :: ">
+            <span class="description"></span><pre>getDocumentProtection</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getProofState" title="getProofState :: ">
+            <span class="description"></span><pre>getProofState</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getRevisionView" title="getRevisionView :: Get the Visibility of Annotation Types">
+            <span class="description">Get the Visibility of Annotation Types</span><pre>getRevisionView</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getThemeFontLang" title="getThemeFontLang :: Returns the Language">
+            <span class="description">Returns the Language</span><pre>getThemeFontLang</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_getZoom" title="getZoom :: ">
+            <span class="description"></span><pre>getZoom</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasDoNotTrackFormatting" title="hasDoNotTrackFormatting :: ">
+            <span class="description"></span><pre>hasDoNotTrackFormatting</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasDoNotTrackMoves" title="hasDoNotTrackMoves :: ">
+            <span class="description"></span><pre>hasDoNotTrackMoves</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasEvenAndOddHeaders" title="hasEvenAndOddHeaders :: ">
+            <span class="description"></span><pre>hasEvenAndOddHeaders</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasHideGrammaticalErrors" title="hasHideGrammaticalErrors :: Are grammatical errors hidden">
+            <span class="description">Are grammatical errors hidden</span><pre>hasHideGrammaticalErrors</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasHideSpellingErrors" title="hasHideSpellingErrors :: Are spelling errors hidden">
+            <span class="description">Are spelling errors hidden</span><pre>hasHideSpellingErrors</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasMirrorMargins" title="hasMirrorMargins :: ">
+            <span class="description"></span><pre>hasMirrorMargins</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_hasTrackRevisions" title="hasTrackRevisions :: ">
+            <span class="description"></span><pre>hasTrackRevisions</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setDecimalSymbol" title="setDecimalSymbol :: sets the Radix Point for Field Code Evaluation">
+            <span class="description">sets the Radix Point for Field Code Evaluation</span><pre>setDecimalSymbol</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setDocumentProtection" title="setDocumentProtection :: ">
+            <span class="description"></span><pre>setDocumentProtection</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setDoNotTrackFormatting" title="setDoNotTrackFormatting :: ">
+            <span class="description"></span><pre>setDoNotTrackFormatting</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setDoNotTrackMoves" title="setDoNotTrackMoves :: ">
+            <span class="description"></span><pre>setDoNotTrackMoves</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setEvenAndOddHeaders" title="setEvenAndOddHeaders :: ">
+            <span class="description"></span><pre>setEvenAndOddHeaders</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setHideGrammaticalErrors" title="setHideGrammaticalErrors :: Hide grammatical errors">
+            <span class="description">Hide grammatical errors</span><pre>setHideGrammaticalErrors</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setHideSpellingErrors" title="setHideSpellingErrors :: Hide spelling errors">
+            <span class="description">Hide spelling errors</span><pre>setHideSpellingErrors</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setMirrorMargins" title="setMirrorMargins :: ">
+            <span class="description"></span><pre>setMirrorMargins</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setProofState" title="setProofState :: ">
+            <span class="description"></span><pre>setProofState</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setRevisionView" title="setRevisionView :: Set the Visibility of Annotation Types">
+            <span class="description">Set the Visibility of Annotation Types</span><pre>setRevisionView</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setThemeFontLang" title="setThemeFontLang :: sets the Language for this document">
+            <span class="description">sets the Language for this document</span><pre>setThemeFontLang</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setTrackRevisions" title="setTrackRevisions :: ">
+            <span class="description"></span><pre>setTrackRevisions</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_setZoom" title="setZoom :: ">
+            <span class="description"></span><pre>setZoom</pre>
+        </a>
+    </li>
+
+                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>Settings</h1>
+                <small style="display: block; text-align: right">
+                                                        </small>
+                <p class="short_description">Setting class</p>
+                <div class="details">
+                    <div class="long_description">
+                        
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        since
+                                                                            </th>
+                                    <td>
+                                                                                    0.14.0
+                                                                                
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        see
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method_getDecimalSymbol"></a>
+                        <div class="element clickable method public  method_getDecimalSymbol" data-toggle="collapse" data-target=".method_getDecimalSymbol .collapse">
+                            <h2>Returns the Radix Point for Field Code Evaluation</h2>
+                            <pre>getDecimalSymbol() : string</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>string</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getDocumentProtection"></a>
+                        <div class="element clickable method public  method_getDocumentProtection" data-toggle="collapse" data-target=".method_getDocumentProtection .collapse">
+                            <h2>getDocumentProtection</h2>
+                            <pre>getDocumentProtection() : \PhpOffice\PhpWord\Metadata\Protection</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code><a href="../classes/PhpOffice.PhpWord.Metadata.Protection.html">\PhpOffice\PhpWord\Metadata\Protection</a></code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getProofState"></a>
+                        <div class="element clickable method public  method_getProofState" data-toggle="collapse" data-target=".method_getProofState .collapse">
+                            <h2>getProofState</h2>
+                            <pre>getProofState() : \PhpOffice\PhpWord\ComplexType\ProofState</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code><a href="../classes/PhpOffice.PhpWord.ComplexType.ProofState.html">\PhpOffice\PhpWord\ComplexType\ProofState</a></code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getRevisionView"></a>
+                        <div class="element clickable method public  method_getRevisionView" data-toggle="collapse" data-target=".method_getRevisionView .collapse">
+                            <h2>Get the Visibility of Annotation Types</h2>
+                            <pre>getRevisionView() : \PhpOffice\PhpWord\ComplexType\TrackChangesView</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code><a href="../classes/PhpOffice.PhpWord.ComplexType.TrackChangesView.html">\PhpOffice\PhpWord\ComplexType\TrackChangesView</a></code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getThemeFontLang"></a>
+                        <div class="element clickable method public  method_getThemeFontLang" data-toggle="collapse" data-target=".method_getThemeFontLang .collapse">
+                            <h2>Returns the Language</h2>
+                            <pre>getThemeFontLang() : \PhpOffice\PhpWord\Style\Language</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code><a href="../classes/PhpOffice.PhpWord.Style.Language.html">\PhpOffice\PhpWord\Style\Language</a></code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_getZoom"></a>
+                        <div class="element clickable method public  method_getZoom" data-toggle="collapse" data-target=".method_getZoom .collapse">
+                            <h2>getZoom</h2>
+                            <pre>getZoom() : mixed</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>mixed</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasDoNotTrackFormatting"></a>
+                        <div class="element clickable method public  method_hasDoNotTrackFormatting" data-toggle="collapse" data-target=".method_hasDoNotTrackFormatting .collapse">
+                            <h2>hasDoNotTrackFormatting</h2>
+                            <pre>hasDoNotTrackFormatting() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasDoNotTrackMoves"></a>
+                        <div class="element clickable method public  method_hasDoNotTrackMoves" data-toggle="collapse" data-target=".method_hasDoNotTrackMoves .collapse">
+                            <h2>hasDoNotTrackMoves</h2>
+                            <pre>hasDoNotTrackMoves() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasEvenAndOddHeaders"></a>
+                        <div class="element clickable method public  method_hasEvenAndOddHeaders" data-toggle="collapse" data-target=".method_hasEvenAndOddHeaders .collapse">
+                            <h2>hasEvenAndOddHeaders</h2>
+                            <pre>hasEvenAndOddHeaders() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasHideGrammaticalErrors"></a>
+                        <div class="element clickable method public  method_hasHideGrammaticalErrors" data-toggle="collapse" data-target=".method_hasHideGrammaticalErrors .collapse">
+                            <h2>Are grammatical errors hidden</h2>
+                            <pre>hasHideGrammaticalErrors() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasHideSpellingErrors"></a>
+                        <div class="element clickable method public  method_hasHideSpellingErrors" data-toggle="collapse" data-target=".method_hasHideSpellingErrors .collapse">
+                            <h2>Are spelling errors hidden</h2>
+                            <pre>hasHideSpellingErrors() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasMirrorMargins"></a>
+                        <div class="element clickable method public  method_hasMirrorMargins" data-toggle="collapse" data-target=".method_hasMirrorMargins .collapse">
+                            <h2>hasMirrorMargins</h2>
+                            <pre>hasMirrorMargins() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_hasTrackRevisions"></a>
+                        <div class="element clickable method public  method_hasTrackRevisions" data-toggle="collapse" data-target=".method_hasTrackRevisions .collapse">
+                            <h2>hasTrackRevisions</h2>
+                            <pre>hasTrackRevisions() : boolean</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                    
+                                                                            <h3>Response</h3>
+                                        <code>boolean</code><p></p>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setDecimalSymbol"></a>
+                        <div class="element clickable method public  method_setDecimalSymbol" data-toggle="collapse" data-target=".method_setDecimalSymbol .collapse">
+                            <h2>sets the Radix Point for Field Code Evaluation</h2>
+                            <pre>setDecimalSymbol(string $decimalSymbol) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$decimalSymbol</h4>
+                                                <code>string</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setDocumentProtection"></a>
+                        <div class="element clickable method public  method_setDocumentProtection" data-toggle="collapse" data-target=".method_setDocumentProtection .collapse">
+                            <h2>setDocumentProtection</h2>
+                            <pre>setDocumentProtection(\PhpOffice\PhpWord\Metadata\Protection $documentProtection) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$documentProtection</h4>
+                                                <code><a href="../classes/PhpOffice.PhpWord.Metadata.Protection.html">\PhpOffice\PhpWord\Metadata\Protection</a></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setDoNotTrackFormatting"></a>
+                        <div class="element clickable method public  method_setDoNotTrackFormatting" data-toggle="collapse" data-target=".method_setDoNotTrackFormatting .collapse">
+                            <h2>setDoNotTrackFormatting</h2>
+                            <pre>setDoNotTrackFormatting(boolean $doNotTrackFormatting) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$doNotTrackFormatting</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setDoNotTrackMoves"></a>
+                        <div class="element clickable method public  method_setDoNotTrackMoves" data-toggle="collapse" data-target=".method_setDoNotTrackMoves .collapse">
+                            <h2>setDoNotTrackMoves</h2>
+                            <pre>setDoNotTrackMoves(boolean $doNotTrackMoves) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$doNotTrackMoves</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setEvenAndOddHeaders"></a>
+                        <div class="element clickable method public  method_setEvenAndOddHeaders" data-toggle="collapse" data-target=".method_setEvenAndOddHeaders .collapse">
+                            <h2>setEvenAndOddHeaders</h2>
+                            <pre>setEvenAndOddHeaders(boolean $evenAndOddHeaders) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$evenAndOddHeaders</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setHideGrammaticalErrors"></a>
+                        <div class="element clickable method public  method_setHideGrammaticalErrors" data-toggle="collapse" data-target=".method_setHideGrammaticalErrors .collapse">
+                            <h2>Hide grammatical errors</h2>
+                            <pre>setHideGrammaticalErrors(boolean $hideGrammaticalErrors) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$hideGrammaticalErrors</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setHideSpellingErrors"></a>
+                        <div class="element clickable method public  method_setHideSpellingErrors" data-toggle="collapse" data-target=".method_setHideSpellingErrors .collapse">
+                            <h2>Hide spelling errors</h2>
+                            <pre>setHideSpellingErrors(boolean $hideSpellingErrors) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$hideSpellingErrors</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setMirrorMargins"></a>
+                        <div class="element clickable method public  method_setMirrorMargins" data-toggle="collapse" data-target=".method_setMirrorMargins .collapse">
+                            <h2>setMirrorMargins</h2>
+                            <pre>setMirrorMargins(boolean $mirrorMargins) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$mirrorMargins</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setProofState"></a>
+                        <div class="element clickable method public  method_setProofState" data-toggle="collapse" data-target=".method_setProofState .collapse">
+                            <h2>setProofState</h2>
+                            <pre>setProofState(\PhpOffice\PhpWord\ComplexType\ProofState $proofState) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$proofState</h4>
+                                                <code><a href="../classes/PhpOffice.PhpWord.ComplexType.ProofState.html">\PhpOffice\PhpWord\ComplexType\ProofState</a></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setRevisionView"></a>
+                        <div class="element clickable method public  method_setRevisionView" data-toggle="collapse" data-target=".method_setRevisionView .collapse">
+                            <h2>Set the Visibility of Annotation Types</h2>
+                            <pre>setRevisionView(\PhpOffice\PhpWord\ComplexType\TrackChangesView $trackChangesView = null) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$trackChangesView</h4>
+                                                <code><a href="../classes/PhpOffice.PhpWord.ComplexType.TrackChangesView.html">\PhpOffice\PhpWord\ComplexType\TrackChangesView</a></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setThemeFontLang"></a>
+                        <div class="element clickable method public  method_setThemeFontLang" data-toggle="collapse" data-target=".method_setThemeFontLang .collapse">
+                            <h2>sets the Language for this document</h2>
+                            <pre>setThemeFontLang(\PhpOffice\PhpWord\Style\Language $themeFontLang) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$themeFontLang</h4>
+                                                <code><a href="../classes/PhpOffice.PhpWord.Style.Language.html">\PhpOffice\PhpWord\Style\Language</a></code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setTrackRevisions"></a>
+                        <div class="element clickable method public  method_setTrackRevisions" data-toggle="collapse" data-target=".method_setTrackRevisions .collapse">
+                            <h2>setTrackRevisions</h2>
+                            <pre>setTrackRevisions(boolean $trackRevisions) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$trackRevisions</h4>
+                                                <code>boolean</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_setZoom"></a>
+                        <div class="element clickable method public  method_setZoom" data-toggle="collapse" data-target=".method_setZoom .collapse">
+                            <h2>setZoom</h2>
+                            <pre>setZoom(mixed $zoom) </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                                                    </table>
+
+                                                                            <h3>Arguments</h3>
+                                                                                    <div class="subelement argument">
+                                                <h4>$zoom</h4>
+                                                <code>mixed</code><p></p>
+                                            </div>
+                                                                            
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_zoom"> </a>
+                            <div class="element clickable property  private property_zoom" data-toggle="collapse" data-target=".property_zoom .collapse">
+                                <h2>Magnification Setting</h2>
+                                <pre>zoom : mixed</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        see
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    <p>either integer, in which case it treated as a percent, or one of PhpOffice\PhpWord\SimpleType\Zoom</p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>mixed</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_mirrorMargins"> </a>
+                            <div class="element clickable property  private property_mirrorMargins" data-toggle="collapse" data-target=".property_mirrorMargins .collapse">
+                                <h2>Mirror Page Margins</h2>
+                                <pre>mirrorMargins : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        see
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_hideSpellingErrors"> </a>
+                            <div class="element clickable property  private property_hideSpellingErrors" data-toggle="collapse" data-target=".property_hideSpellingErrors .collapse">
+                                <h2>Hide spelling errors</h2>
+                                <pre>hideSpellingErrors : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_hideGrammaticalErrors"> </a>
+                            <div class="element clickable property  private property_hideGrammaticalErrors" data-toggle="collapse" data-target=".property_hideGrammaticalErrors .collapse">
+                                <h2>Hide grammatical errors</h2>
+                                <pre>hideGrammaticalErrors : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_revisionView"> </a>
+                            <div class="element clickable property  private property_revisionView" data-toggle="collapse" data-target=".property_revisionView .collapse">
+                                <h2>Visibility of Annotation Types</h2>
+                                <pre>revisionView : \PhpOffice\PhpWord\ComplexType\TrackChangesView</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/PhpOffice.PhpWord.ComplexType.TrackChangesView.html">\PhpOffice\PhpWord\ComplexType\TrackChangesView</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_trackRevisions"> </a>
+                            <div class="element clickable property  private property_trackRevisions" data-toggle="collapse" data-target=".property_trackRevisions .collapse">
+                                <h2>Track Revisions to Document</h2>
+                                <pre>trackRevisions : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_doNotTrackMoves"> </a>
+                            <div class="element clickable property  private property_doNotTrackMoves" data-toggle="collapse" data-target=".property_doNotTrackMoves .collapse">
+                                <h2>Do Not Use Move Syntax When Tracking Revisions</h2>
+                                <pre>doNotTrackMoves : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_doNotTrackFormatting"> </a>
+                            <div class="element clickable property  private property_doNotTrackFormatting" data-toggle="collapse" data-target=".property_doNotTrackFormatting .collapse">
+                                <h2>Do Not Track Formatting Revisions When Tracking Revisions</h2>
+                                <pre>doNotTrackFormatting : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_proofState"> </a>
+                            <div class="element clickable property  private property_proofState" data-toggle="collapse" data-target=".property_proofState .collapse">
+                                <h2>Spelling and Grammatical Checking State</h2>
+                                <pre>proofState : \PhpOffice\PhpWord\Metadata\ProofState</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>\PhpOffice\PhpWord\Metadata\ProofState</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_documentProtection"> </a>
+                            <div class="element clickable property  private property_documentProtection" data-toggle="collapse" data-target=".property_documentProtection .collapse">
+                                <h2>Document Editing Restrictions</h2>
+                                <pre>documentProtection : \PhpOffice\PhpWord\Metadata\Protection</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/PhpOffice.PhpWord.Metadata.Protection.html">\PhpOffice\PhpWord\Metadata\Protection</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_evenAndOddHeaders"> </a>
+                            <div class="element clickable property  private property_evenAndOddHeaders" data-toggle="collapse" data-target=".property_evenAndOddHeaders .collapse">
+                                <h2>Enables different header for odd and even pages.</h2>
+                                <pre>evenAndOddHeaders : boolean</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>boolean</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_themeFontLang"> </a>
+                            <div class="element clickable property  private property_themeFontLang" data-toggle="collapse" data-target=".property_themeFontLang .collapse">
+                                <h2>Theme Font Languages</h2>
+                                <pre>themeFontLang : \PhpOffice\PhpWord\Style\Language</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code><a href="../classes/PhpOffice.PhpWord.Style.Language.html">\PhpOffice\PhpWord\Style\Language</a></code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <a id="property_decimalSymbol"> </a>
+                            <div class="element clickable property  private property_decimalSymbol" data-toggle="collapse" data-target=".property_decimalSymbol .collapse">
+                                <h2>Radix Point for Field Code Evaluation</h2>
+                                <pre>decimalSymbol : string</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>string</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\PhpOffice\PhpWord\Metadata\Settings"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/PhpOffice.PhpWord.Metadata.html">Metadata</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/PhpOffice.PhpWord.Metadata.Settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Sun, 05 Nov 2017 20:46:44 +0000.<br/>
+    </footer>
+    </body>
+</html>
